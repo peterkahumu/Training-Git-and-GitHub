@@ -1,0 +1,34 @@
+body.styled-body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+p.text {
+    color: #007bff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+table.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table.styled-table th, table.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table.styled-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
